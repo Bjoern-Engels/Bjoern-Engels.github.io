@@ -1,0 +1,17 @@
+body {
+  background-image: url(/img/2018-02-11.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+p span{
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  background-color: white;
+}
+li span{
+  background-color: white;
+}
