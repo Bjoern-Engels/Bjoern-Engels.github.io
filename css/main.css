@@ -55,10 +55,10 @@ body {
   background-size: auto;
 }
 .mid{
-    display: flex;
-    width: 1500px;
-    align-items: center;
-    margin: auto;
+  display: flex;
+  width: 1500px;
+  align-items: center;
+  margin: auto;
 }
 .Info {
   border-top-left-radius: 25px;
@@ -112,6 +112,27 @@ li span{
   padding-top: 5px;
   padding-left: 20px;
   padding-bottom: 20px;
+}
+
+.ontwikkelingbox{
+  display: flex;
+  width: 1500px;
+  align-items: center;
+  margin: auto;
+}
+
+.ontwikkeling{
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  background-color: #e6e6e6;
+  width: 750px;
+  height: 450px;
+  font-size: 140%;
+  padding-left: 20px
+}
+.discfoto{
+  height: 450px;
+  width: 750px;
 }
 
 * {box-sizing:border-box}
