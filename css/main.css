@@ -9,6 +9,8 @@
   margin-top: 0;
 
 }
+
+
 .language a{
   text-decoration: none;
   color: #757575;
@@ -75,6 +77,22 @@ p span{
 
 li span{
   background-color: #e6e6e6;
+}
+
+.contactbox{
+  width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact{
+  border-radius: 25px;
+  background-color: #e6e6e6;
+  font-size: 140%;
+  width: 750px;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 
 * {box-sizing:border-box}
