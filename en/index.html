@@ -95,5 +95,114 @@
         }
         </script>
       </div>
+      <div class="mid">
+        <div class="Info">
+          <p>
+            <h2>Opleidingen</h2>
+            <table>
+              <tr>
+                <th><b>Middelbaar:</b></th>
+                <td>OLVO oostende, moderne talen wetenschappen</td>
+              </tr>
+              <tr>
+                <th>Hoger:</th>
+                <td>Vives Oostende, elektronica-ICT 2015 - 2017</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Hogent 2017-...</td>
+              </tr>
+            </table>
+
+          </p>
+        </div>
+        <div class="slideshow-container">
+
+          <div class="mySlides2 fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="../img/olvo.jpg" style="width:750px" style="height: 400px">
+            <div class="text">OLVO</div>
+          </div>
+
+          <div class="mySlides2 fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="../img/vives.jpg" style="width:750px" style="height: 400px">
+            <div class="text">Vives</div>
+          </div>
+
+          <div class="mySlides2 fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="../img/hogent.jpg" style="width:750px" style="height: 400px">
+            <div class="text">hogent</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+        </div>
+
+        <script type="text/javascript">
+        var slideIndex2 = 1;
+        showSlides2(slideIndex2);
+
+// Next/previous controls
+        function plusSlides2(n) {
+          showSlides2(slideIndex2 += n);
+        }
+
+// Thumbnail image controls
+        function currentSlide(n) {
+          showSlides2(slideIndex2 = n);
+        }
+
+        function showSlides2(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides2");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex2 = 1}
+          if (n < 1) {slideIndex2 = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex2-1].style.display = "block";
+          dots[slideIndex2-1].className += " active";
+        }
+        </script>
+      </div>
+      <div class="singleblokbox">
+        <div class="singleblokleft">
+          <h2>Obtained certificates</h2>
+          <p>
+            <ul>
+              <li>High school certificate ASO</li>
+              <li>CCNA 1 certificate</li>
+            </ul>
+          </p>
+        </div>
+        <div class="singleblokright">
+          <h2>Scholarschip</h2>
+          <p>
+            <ul>
+              <li>Academy Day at Cisco Live 2017, Berlin</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div class="singleblokbox">
+        <div class="singleblokleft">
+          <h2>Workexperience</h2>
+          <h3>Student job:</h3>
+          <ul>
+            <li>Environment worker Bredene 2013</li>
+            <li>Albert Heijn 2014</li>
+            <li>Agence Dermul 2016 - ...</li>
+          </ul>
+        </div>
+      </div>
+    <footer>
+      <h3><b>contact opnemen?</b> <a href="contact.html">click here!</a></h3>
+    </footer>
     </body>
 </html>
