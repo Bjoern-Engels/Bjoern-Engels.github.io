@@ -65,6 +65,18 @@ body {
   background-attachment: scroll;
   background-size: cover;
 }
+
+.tophead {
+  display: flex;
+  width: 1500px;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color:  #e6e6e6;
+  border-radius: 25px;
+  padding-left: 20px;
+  font-size: 150%;
+}
+
 .mid{
   display: flex;
   width: 1500px;
@@ -81,6 +93,24 @@ body {
   font-size: 140%;
   padding-left: 20px
 
+}
+.Info2 {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  background-color:  #e6e6e6;
+  width: 750px;
+  height: 500px;
+  font-size: 140%;
+  padding-left: 20px
+
+}
+.rightimage {
+  width: 750px;
+  height: 400px;
+}
+.rightimage2 {
+  width: 750px;
+  height: 500px;
 }
 
 p span{
@@ -136,6 +166,9 @@ li span{
   margin-left: 1%;
 }
 
+th, td {
+  vertical-align: top;
+}
 .ontwikkelingbox{
   display: flex;
   width: 1500px;
