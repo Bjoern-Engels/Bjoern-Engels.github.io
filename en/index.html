@@ -41,73 +41,23 @@
 
         </div>
 
-        <div class="slideshow-container">
-
-          <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img src="../img/HEDEBOUW.jpg" style="width:750px" style="height: 400px">
-            <div class="text">Caption Text</div>
+          <div class="rightimage">
+            <img class="img"src="../img/smRed7M.jpg">
           </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img src="../img/Naamloos.png" style="width:750px" style="height: 400px">
-            <div class="text">Caption Two</div>
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="../img/smRed7M.jpg" style="width:750px" style="height: 400px">
-            <div class="text">Caption Three</div>
-          </div>
-
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
-
-        <script type="text/javascript">
-        var slideIndex = 1;
-        showSlides(slideIndex);
-
-// Next/previous controls
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
-        }
-
-// Thumbnail image controls
-        function currentSlide(n) {
-          showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-          var i;
-          var slides = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("dot");
-          if (n > slides.length) {slideIndex = 1}
-          if (n < 1) {slideIndex = slides.length}
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-          }
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";
-          dots[slideIndex-1].className += " active";
-        }
-        </script>
-      </div>
       <div class="mid">
         <div class="Info">
           <p>
             <h2>Opleidingen</h2>
+
             <table>
               <tr>
-                <th><b>Middelbaar:</b></th>
-                <td>OLVO oostende, moderne talen wetenschappen</td>
+                <th><b>high school:</b></th>
+                <td>OLVO oostende, modern languages,science</td>
               </tr>
               <tr>
                 <th>Hoger:</th>
-                <td>Vives Oostende, elektronica-ICT 2015 - 2017</td>
+                <td>Vives Oostende, electronics-ICT 2015 - 2017</td>
               </tr>
               <tr>
                 <td></td>
